@@ -1,0 +1,75 @@
+/* This is an External CSS */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  margin: 0;
+  padding: 40px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: #1e293b;
+  max-width: 850px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 40px 50px;
+  text-align: center;
+}
+
+/* Image */
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%; /* 🔹 Makes the image round */
+  object-fit: cover;
+  box-shadow: 0 20px 10px rgba(0,0,0,0.4);
+}
+
+/* Title */
+.center-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #cbd5e1;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #64748b;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* Paragraph text */
+p {
+  font-size: 16px;
+  color: #cbd5e1;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 20px;
+  }
+
+  .image-container img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .center-title {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
